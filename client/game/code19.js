@@ -50,7 +50,7 @@ gdjs.LGS9Code.condition2IsTrue_1 = {val:false};
 gdjs.LGS9Code.condition3IsTrue_1 = {val:false};
 
 
-gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS9Code.GDbutton1Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS9Code.GDbutton1Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton2Objects1Objects = Hashtable.newFrom({"button2": gdjs.LGS9Code.GDbutton2Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton2Objects1Objects = Hashtable.newFrom({"button2": gdjs.LGS9Code.GDbutton2Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS9Code.GDbutton1Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton3Objects1Objects = Hashtable.newFrom({"button3": gdjs.LGS9Code.GDbutton3Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton3Objects1Objects = Hashtable.newFrom({"button3": gdjs.LGS9Code.GDbutton3Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDGameOverButtonObjects1Objects = Hashtable.newFrom({"GameOverButton": gdjs.LGS9Code.GDGameOverButtonObjects1});gdjs.LGS9Code.userFunc0x78be78 = function(runtimeScene) {
+gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS9Code.GDbutton1Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS9Code.GDbutton1Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton2Objects1Objects = Hashtable.newFrom({"button2": gdjs.LGS9Code.GDbutton2Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton2Objects1Objects = Hashtable.newFrom({"button2": gdjs.LGS9Code.GDbutton2Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS9Code.GDbutton1Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton3Objects1Objects = Hashtable.newFrom({"button3": gdjs.LGS9Code.GDbutton3Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDbutton3Objects1Objects = Hashtable.newFrom({"button3": gdjs.LGS9Code.GDbutton3Objects1});gdjs.LGS9Code.mapOfGDgdjs_46LGS9Code_46GDGameOverButtonObjects1Objects = Hashtable.newFrom({"GameOverButton": gdjs.LGS9Code.GDGameOverButtonObjects1});gdjs.LGS9Code.userFunc0x7c5228 = function(runtimeScene) {
 var variables = runtimeScene.getVariables();
 var gameID = 4;
 
@@ -70,18 +70,18 @@ window.top.postMessage({
 },"*");
 
 };
-gdjs.LGS9Code.eventsList0x7b5898 = function(runtimeScene) {
+gdjs.LGS9Code.eventsList0x85d860 = function(runtimeScene) {
 
 {
 
 
-gdjs.LGS9Code.userFunc0x78be78(runtimeScene);
+gdjs.LGS9Code.userFunc0x7c5228(runtimeScene);
 
 }
 
 
-}; //End of gdjs.LGS9Code.eventsList0x7b5898
-gdjs.LGS9Code.userFunc0x77fb48 = function(runtimeScene) {
+}; //End of gdjs.LGS9Code.eventsList0x85d860
+gdjs.LGS9Code.userFunc0x7c2b08 = function(runtimeScene) {
 var variables = runtimeScene.getVariables();
 var gameID = 4;
 
@@ -101,17 +101,17 @@ window.top.postMessage({
 },"*");
 
 };
-gdjs.LGS9Code.eventsList0x77f270 = function(runtimeScene) {
+gdjs.LGS9Code.eventsList0x7c55c8 = function(runtimeScene) {
 
 {
 
 
-gdjs.LGS9Code.userFunc0x77fb48(runtimeScene);
+gdjs.LGS9Code.userFunc0x7c2b08(runtimeScene);
 
 }
 
 
-}; //End of gdjs.LGS9Code.eventsList0x77f270
+}; //End of gdjs.LGS9Code.eventsList0x7c55c8
 gdjs.LGS9Code.eventsList0xb2358 = function(runtimeScene) {
 
 {
@@ -988,7 +988,7 @@ gdjs.LGS9Code.conditionTrue_1.val = true && gdjs.LGS9Code.condition0IsTrue_1.val
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Map", false);
 }
 { //Subevents
-gdjs.LGS9Code.eventsList0x7b5898(runtimeScene);} //End of subevents
+gdjs.LGS9Code.eventsList0x85d860(runtimeScene);} //End of subevents
 }
 
 }
@@ -1008,7 +1008,7 @@ gdjs.LGS9Code.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtim
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Map", false);
 }
 { //Subevents
-gdjs.LGS9Code.eventsList0x77f270(runtimeScene);} //End of subevents
+gdjs.LGS9Code.eventsList0x7c55c8(runtimeScene);} //End of subevents
 }
 
 }

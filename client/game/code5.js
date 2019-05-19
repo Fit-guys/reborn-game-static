@@ -111,7 +111,7 @@ gdjs.HT_95MazeGameCode.condition1IsTrue_0 = {val:false};
 gdjs.HT_95MazeGameCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.HT_95MazeGameCode.eventsList0x782150 = function(runtimeScene) {
+gdjs.HT_95MazeGameCode.eventsList0x109c3e8 = function(runtimeScene) {
 
 {
 
@@ -162,8 +162,8 @@ gdjs.HT_95MazeGameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButto
 }
 
 
-}; //End of gdjs.HT_95MazeGameCode.eventsList0x782150
-gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDObstacleObjects1Objects = Hashtable.newFrom({"Obstacle": gdjs.HT_95MazeGameCode.GDObstacleObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockGameObjects1Objects = Hashtable.newFrom({"finishBlockGame": gdjs.HT_95MazeGameCode.GDfinishBlockGameObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockWebObjects1Objects = Hashtable.newFrom({"finishBlockWeb": gdjs.HT_95MazeGameCode.GDfinishBlockWebObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockSysObjects1Objects = Hashtable.newFrom({"finishBlockSys": gdjs.HT_95MazeGameCode.GDfinishBlockSysObjects1});gdjs.HT_95MazeGameCode.eventsList0x79d3c8 = function(runtimeScene) {
+}; //End of gdjs.HT_95MazeGameCode.eventsList0x109c3e8
+gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDObstacleObjects1Objects = Hashtable.newFrom({"Obstacle": gdjs.HT_95MazeGameCode.GDObstacleObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockGameObjects1Objects = Hashtable.newFrom({"finishBlockGame": gdjs.HT_95MazeGameCode.GDfinishBlockGameObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockWebObjects1Objects = Hashtable.newFrom({"finishBlockWeb": gdjs.HT_95MazeGameCode.GDfinishBlockWebObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockSysObjects1Objects = Hashtable.newFrom({"finishBlockSys": gdjs.HT_95MazeGameCode.GDfinishBlockSysObjects1});gdjs.HT_95MazeGameCode.eventsList0x7c20b0 = function(runtimeScene) {
 
 {
 
@@ -273,8 +273,8 @@ gdjs.HT_95MazeGameCode.GDfinishBlockWebObjects1.createFrom(runtimeScene.getObjec
 }
 
 
-}; //End of gdjs.HT_95MazeGameCode.eventsList0x79d3c8
-gdjs.HT_95MazeGameCode.eventsList0x78b798 = function(runtimeScene) {
+}; //End of gdjs.HT_95MazeGameCode.eventsList0x7c20b0
+gdjs.HT_95MazeGameCode.eventsList0x7a0200 = function(runtimeScene) {
 
 {
 
@@ -287,27 +287,27 @@ gdjs.HT_95MazeGameCode.GDMindaObjects1.createFrom(runtimeScene.getObjects("Minda
 }
 
 
-}; //End of gdjs.HT_95MazeGameCode.eventsList0x78b798
+}; //End of gdjs.HT_95MazeGameCode.eventsList0x7a0200
 gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.HT_95MazeGameCode.GDMindaObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDkubokObjects1Objects = Hashtable.newFrom({"kubok": gdjs.HT_95MazeGameCode.GDkubokObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.HT_95MazeGameCode.GDMindaObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockWebObjects1Objects = Hashtable.newFrom({"finishBlockWeb": gdjs.HT_95MazeGameCode.GDfinishBlockWebObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.HT_95MazeGameCode.GDMindaObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockGameObjects1Objects = Hashtable.newFrom({"finishBlockGame": gdjs.HT_95MazeGameCode.GDfinishBlockGameObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.HT_95MazeGameCode.GDMindaObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishBlockSysObjects1Objects = Hashtable.newFrom({"finishBlockSys": gdjs.HT_95MazeGameCode.GDfinishBlockSysObjects1});gdjs.HT_95MazeGameCode.mapOfGDgdjs_46HT_9595MazeGameCode_46GDfinishButtonObjects1Objects = Hashtable.newFrom({"finishButton": gdjs.HT_95MazeGameCode.GDfinishButtonObjects1});gdjs.HT_95MazeGameCode.eventsList0xb2358 = function(runtimeScene) {
 
 {
 
 
-gdjs.HT_95MazeGameCode.eventsList0x782150(runtimeScene);
+gdjs.HT_95MazeGameCode.eventsList0x109c3e8(runtimeScene);
 }
 
 
 {
 
 
-gdjs.HT_95MazeGameCode.eventsList0x79d3c8(runtimeScene);
+gdjs.HT_95MazeGameCode.eventsList0x7c20b0(runtimeScene);
 }
 
 
 {
 
 
-gdjs.HT_95MazeGameCode.eventsList0x78b798(runtimeScene);
+gdjs.HT_95MazeGameCode.eventsList0x7a0200(runtimeScene);
 }
 
 

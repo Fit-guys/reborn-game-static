@@ -101,16 +101,16 @@ gdjs.HT_95MapCode.condition0IsTrue_0 = {val:false};
 gdjs.HT_95MapCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.HT_95MapCode.userFunc0x77e838 = function(runtimeScene) {
+gdjs.HT_95MapCode.userFunc0x7c2c20 = function(runtimeScene) {
 window.addEventListener("message", receiveMessage, false);
 
 function receiveMessage(event)
 {
   if (event.data.name = "user-story") {
     event.data.data.forEach(story => {
-      if(story.game_id === 0) {
+      /*if(story.game_id === 0) {
         return;
-      }
+      }*/
       runtimeScene.getGame().getVariables().getFromIndex(0).getChild(Number(story.game_id+2) + 'level').setNumber(1);
       })
   }
@@ -118,17 +118,17 @@ function receiveMessage(event)
 
 window.top.postMessage({name: "user-story-request"},"*");
 };
-gdjs.HT_95MapCode.eventsList0x77e408 = function(runtimeScene) {
+gdjs.HT_95MapCode.eventsList0x7c27d0 = function(runtimeScene) {
 
 {
 
 
-gdjs.HT_95MapCode.userFunc0x77e838(runtimeScene);
+gdjs.HT_95MapCode.userFunc0x7c2c20(runtimeScene);
 
 }
 
 
-}; //End of gdjs.HT_95MapCode.eventsList0x77e408
+}; //End of gdjs.HT_95MapCode.eventsList0x7c27d0
 gdjs.HT_95MapCode.eventsList0xb2358 = function(runtimeScene) {
 
 {
@@ -175,7 +175,7 @@ gdjs.HT_95MapCode.GDhelp3TObjects1.createFrom(runtimeScene.getObjects("help3T"))
 }
 }
 { //Subevents
-gdjs.HT_95MapCode.eventsList0x77e408(runtimeScene);} //End of subevents
+gdjs.HT_95MapCode.eventsList0x7c27d0(runtimeScene);} //End of subevents
 }
 
 }
@@ -190,6 +190,15 @@ gdjs.HT_95MapCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }if (gdjs.HT_95MapCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Map", false);
 }}
+
+}
+
+
+{
+
+
+{
+}
 
 }
 

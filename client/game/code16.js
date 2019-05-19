@@ -34,7 +34,7 @@ gdjs.LGS6Code.condition2IsTrue_1 = {val:false};
 gdjs.LGS6Code.condition3IsTrue_1 = {val:false};
 
 
-gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDbutton2Objects1Objects = Hashtable.newFrom({"button2": gdjs.LGS6Code.GDbutton2Objects1});gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDbutton2Objects1Objects = Hashtable.newFrom({"button2": gdjs.LGS6Code.GDbutton2Objects1});gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS6Code.GDbutton1Objects1});gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS6Code.GDbutton1Objects1});gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDcontinueTextObjects1Objects = Hashtable.newFrom({"continueText": gdjs.LGS6Code.GDcontinueTextObjects1});gdjs.LGS6Code.eventsList0x78e1f0 = function(runtimeScene) {
+gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDbutton2Objects1Objects = Hashtable.newFrom({"button2": gdjs.LGS6Code.GDbutton2Objects1});gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDbutton2Objects1Objects = Hashtable.newFrom({"button2": gdjs.LGS6Code.GDbutton2Objects1});gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS6Code.GDbutton1Objects1});gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDbutton1Objects1Objects = Hashtable.newFrom({"button1": gdjs.LGS6Code.GDbutton1Objects1});gdjs.LGS6Code.mapOfGDgdjs_46LGS6Code_46GDcontinueTextObjects1Objects = Hashtable.newFrom({"continueText": gdjs.LGS6Code.GDcontinueTextObjects1});gdjs.LGS6Code.eventsList0x85e510 = function(runtimeScene) {
 
 {
 
@@ -81,7 +81,7 @@ gdjs.LGS6Code.conditionTrue_1.val = true && gdjs.LGS6Code.condition0IsTrue_1.val
 }
 
 
-}; //End of gdjs.LGS6Code.eventsList0x78e1f0
+}; //End of gdjs.LGS6Code.eventsList0x85e510
 gdjs.LGS6Code.eventsList0xb2358 = function(runtimeScene) {
 
 {
@@ -451,7 +451,7 @@ gdjs.LGS6Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.L
 }if (gdjs.LGS6Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.LGS6Code.eventsList0x78e1f0(runtimeScene);} //End of subevents
+gdjs.LGS6Code.eventsList0x85e510(runtimeScene);} //End of subevents
 }
 
 }
