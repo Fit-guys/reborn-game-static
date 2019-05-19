@@ -104,7 +104,7 @@ gdjs.MazeGameCode.condition2IsTrue_1 = {val:false};
 gdjs.MazeGameCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.MazeGameCode.eventsList0xd8a748 = function(runtimeScene) {
+gdjs.MazeGameCode.eventsList0x77dd18 = function(runtimeScene) {
 
 {
 
@@ -207,8 +207,8 @@ gdjs.MazeGameCode.GDMindaObjects2.length = k;}if (gdjs.MazeGameCode.condition0Is
 }
 
 
-}; //End of gdjs.MazeGameCode.eventsList0xd8a748
-gdjs.MazeGameCode.eventsList0x68dcf8 = function(runtimeScene) {
+}; //End of gdjs.MazeGameCode.eventsList0x77dd18
+gdjs.MazeGameCode.eventsList0x782150 = function(runtimeScene) {
 
 {
 
@@ -272,14 +272,14 @@ gdjs.MazeGameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.MazeGameCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.MazeGameCode.eventsList0xd8a748(runtimeScene);} //End of subevents
+gdjs.MazeGameCode.eventsList0x77dd18(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.MazeGameCode.eventsList0x68dcf8
-gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDObstacleObjects1Objects = Hashtable.newFrom({"Obstacle": gdjs.MazeGameCode.GDObstacleObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockGameObjects1Objects = Hashtable.newFrom({"finishBlockGame": gdjs.MazeGameCode.GDfinishBlockGameObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockWebObjects1Objects = Hashtable.newFrom({"finishBlockWeb": gdjs.MazeGameCode.GDfinishBlockWebObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockSysObjects1Objects = Hashtable.newFrom({"finishBlockSys": gdjs.MazeGameCode.GDfinishBlockSysObjects1});gdjs.MazeGameCode.eventsList0x9c87a0 = function(runtimeScene) {
+}; //End of gdjs.MazeGameCode.eventsList0x782150
+gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDObstacleObjects1Objects = Hashtable.newFrom({"Obstacle": gdjs.MazeGameCode.GDObstacleObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockGameObjects1Objects = Hashtable.newFrom({"finishBlockGame": gdjs.MazeGameCode.GDfinishBlockGameObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockWebObjects1Objects = Hashtable.newFrom({"finishBlockWeb": gdjs.MazeGameCode.GDfinishBlockWebObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockSysObjects1Objects = Hashtable.newFrom({"finishBlockSys": gdjs.MazeGameCode.GDfinishBlockSysObjects1});gdjs.MazeGameCode.eventsList0x782a90 = function(runtimeScene) {
 
 {
 
@@ -380,8 +380,8 @@ gdjs.MazeGameCode.GDfinishBlockWebObjects1.createFrom(runtimeScene.getObjects("f
 }
 
 
-}; //End of gdjs.MazeGameCode.eventsList0x9c87a0
-gdjs.MazeGameCode.eventsList0x859e60 = function(runtimeScene) {
+}; //End of gdjs.MazeGameCode.eventsList0x782a90
+gdjs.MazeGameCode.eventsList0x789688 = function(runtimeScene) {
 
 {
 
@@ -394,8 +394,8 @@ gdjs.MazeGameCode.GDMindaObjects1.createFrom(runtimeScene.getObjects("Minda"));
 }
 
 
-}; //End of gdjs.MazeGameCode.eventsList0x859e60
-gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDkubokObjects1Objects = Hashtable.newFrom({"kubok": gdjs.MazeGameCode.GDkubokObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects2Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDWebDevObjects2Objects = Hashtable.newFrom({"WebDev": gdjs.MazeGameCode.GDWebDevObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects2Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDGameDevObjects2Objects = Hashtable.newFrom({"GameDev": gdjs.MazeGameCode.GDGameDevObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects2Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDSysDevObjects2Objects = Hashtable.newFrom({"SysDev": gdjs.MazeGameCode.GDSysDevObjects2});gdjs.MazeGameCode.userFunc0xd8dbe8 = function(runtimeScene) {
+}; //End of gdjs.MazeGameCode.eventsList0x789688
+gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDkubokObjects1Objects = Hashtable.newFrom({"kubok": gdjs.MazeGameCode.GDkubokObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects2Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDWebDevObjects2Objects = Hashtable.newFrom({"WebDev": gdjs.MazeGameCode.GDWebDevObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects2Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDGameDevObjects2Objects = Hashtable.newFrom({"GameDev": gdjs.MazeGameCode.GDGameDevObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects2Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects2});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDSysDevObjects2Objects = Hashtable.newFrom({"SysDev": gdjs.MazeGameCode.GDSysDevObjects2});gdjs.MazeGameCode.userFunc0x78c288 = function(runtimeScene) {
 var variables = runtimeScene.getVariables();
 var gameID = 3;
 
@@ -415,37 +415,68 @@ window.top.postMessage({
 },"*");
 
 };
-gdjs.MazeGameCode.eventsList0xd8d748 = function(runtimeScene) {
+gdjs.MazeGameCode.eventsList0x78bb18 = function(runtimeScene) {
 
 {
 
 
-gdjs.MazeGameCode.userFunc0xd8dbe8(runtimeScene);
+gdjs.MazeGameCode.userFunc0x78c288(runtimeScene);
 
 }
 
 
-}; //End of gdjs.MazeGameCode.eventsList0xd8d748
+}; //End of gdjs.MazeGameCode.eventsList0x78bb18
+gdjs.MazeGameCode.userFunc0x7817f8 = function(runtimeScene) {
+var variables = runtimeScene.getVariables();
+var gameID = 3;
+
+/*runtimeScene.getGame().getVariables().getFromIndex(1).getChild("4level").setNumber(variables.get("Score").getAsNumber());
+runtimeScene.getGame().getVariables().getFromIndex(2).getChild("4level").setNumber(variables.get("Time").getAsNumber());*/
+var score = runtimeScene.getGame().getVariables().getFromIndex(1).getChild("4level").getAsNumber();
+var time = runtimeScene.getGame().getVariables().getFromIndex(2).getChild("4level").getAsNumber();
+
+
+window.top.postMessage({ 
+    name: "level-done",
+    data: {
+        gameID,
+        score,
+        time,
+    },
+},"*");
+
+};
+gdjs.MazeGameCode.eventsList0x781358 = function(runtimeScene) {
+
+{
+
+
+gdjs.MazeGameCode.userFunc0x7817f8(runtimeScene);
+
+}
+
+
+}; //End of gdjs.MazeGameCode.eventsList0x781358
 gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockWebObjects1Objects = Hashtable.newFrom({"finishBlockWeb": gdjs.MazeGameCode.GDfinishBlockWebObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockGameObjects1Objects = Hashtable.newFrom({"finishBlockGame": gdjs.MazeGameCode.GDfinishBlockGameObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDMindaObjects1Objects = Hashtable.newFrom({"Minda": gdjs.MazeGameCode.GDMindaObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishBlockSysObjects1Objects = Hashtable.newFrom({"finishBlockSys": gdjs.MazeGameCode.GDfinishBlockSysObjects1});gdjs.MazeGameCode.mapOfGDgdjs_46MazeGameCode_46GDfinishButtonObjects1Objects = Hashtable.newFrom({"finishButton": gdjs.MazeGameCode.GDfinishButtonObjects1});gdjs.MazeGameCode.eventsList0xb2358 = function(runtimeScene) {
 
 {
 
 
-gdjs.MazeGameCode.eventsList0x68dcf8(runtimeScene);
+gdjs.MazeGameCode.eventsList0x782150(runtimeScene);
 }
 
 
 {
 
 
-gdjs.MazeGameCode.eventsList0x9c87a0(runtimeScene);
+gdjs.MazeGameCode.eventsList0x782a90(runtimeScene);
 }
 
 
 {
 
 
-gdjs.MazeGameCode.eventsList0x859e60(runtimeScene);
+gdjs.MazeGameCode.eventsList0x789688(runtimeScene);
 }
 
 
@@ -631,11 +662,14 @@ gdjs.MazeGameCode.GDWebDevObjects1.createFrom(gdjs.MazeGameCode.GDWebDevObjects1
 }}
 if (gdjs.MazeGameCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "Time");
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("4level").setNumber(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)) / 1.3));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("4level").setNumber(130 - Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1))));
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("4level").setNumber(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1))));
 }{runtimeScene.getGame().getVariables().getFromIndex(0).getChild("5level").setNumber(1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Map", false);
-}}
+}
+{ //Subevents
+gdjs.MazeGameCode.eventsList0x78bb18(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -648,13 +682,13 @@ gdjs.MazeGameCode.condition0IsTrue_0.val = false;
 gdjs.MazeGameCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "p");
 }if (gdjs.MazeGameCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "Time");
-}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("4level").setNumber(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1))) / 1.3);
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("4level").setNumber(70);
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("4level").setNumber(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1))));
 }{runtimeScene.getGame().getVariables().getFromIndex(0).getChild("5level").setNumber(1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Map", false);
 }
 { //Subevents
-gdjs.MazeGameCode.eventsList0xd8d748(runtimeScene);} //End of subevents
+gdjs.MazeGameCode.eventsList0x781358(runtimeScene);} //End of subevents
 }
 
 }

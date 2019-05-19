@@ -28,7 +28,7 @@ gdjs.LGS2Code.condition2IsTrue_1 = {val:false};
 gdjs.LGS2Code.condition3IsTrue_1 = {val:false};
 
 
-gdjs.LGS2Code.mapOfGDgdjs_46LGS2Code_46GDcontinueTextObjects1Objects = Hashtable.newFrom({"continueText": gdjs.LGS2Code.GDcontinueTextObjects1});gdjs.LGS2Code.eventsList0xdab228 = function(runtimeScene) {
+gdjs.LGS2Code.mapOfGDgdjs_46LGS2Code_46GDcontinueTextObjects1Objects = Hashtable.newFrom({"continueText": gdjs.LGS2Code.GDcontinueTextObjects1});gdjs.LGS2Code.eventsList0x782170 = function(runtimeScene) {
 
 {
 
@@ -63,7 +63,7 @@ gdjs.LGS2Code.conditionTrue_1.val = true && gdjs.LGS2Code.condition0IsTrue_1.val
 }
 
 
-}; //End of gdjs.LGS2Code.eventsList0xdab228
+}; //End of gdjs.LGS2Code.eventsList0x782170
 gdjs.LGS2Code.mapOfGDgdjs_46LGS2Code_46GDbuttonObjects1Objects = Hashtable.newFrom({"button": gdjs.LGS2Code.GDbuttonObjects1});gdjs.LGS2Code.mapOfGDgdjs_46LGS2Code_46GDbuttonObjects1Objects = Hashtable.newFrom({"button": gdjs.LGS2Code.GDbuttonObjects1});gdjs.LGS2Code.eventsList0xb2358 = function(runtimeScene) {
 
 {
@@ -122,7 +122,7 @@ gdjs.LGS2Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.L
 }if (gdjs.LGS2Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.LGS2Code.eventsList0xdab228(runtimeScene);} //End of subevents
+gdjs.LGS2Code.eventsList0x782170(runtimeScene);} //End of subevents
 }
 
 }
@@ -137,6 +137,7 @@ gdjs.LGS2Code.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtim
 }if (gdjs.LGS2Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "Time");
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("5level").add(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0))));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("5level").add(20 - Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0))));
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LGS3", false);
 }}
 

@@ -38,7 +38,7 @@ gdjs.LGS3Code.condition2IsTrue_1 = {val:false};
 gdjs.LGS3Code.condition3IsTrue_1 = {val:false};
 
 
-gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDButton1Objects1Objects = Hashtable.newFrom({"Button1": gdjs.LGS3Code.GDButton1Objects1});gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDButton1Objects1Objects = Hashtable.newFrom({"Button1": gdjs.LGS3Code.GDButton1Objects1});gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDButton2Objects1Objects = Hashtable.newFrom({"Button2": gdjs.LGS3Code.GDButton2Objects1});gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDButton2Objects1Objects = Hashtable.newFrom({"Button2": gdjs.LGS3Code.GDButton2Objects1});gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDcontinueTextObjects1Objects = Hashtable.newFrom({"continueText": gdjs.LGS3Code.GDcontinueTextObjects1});gdjs.LGS3Code.eventsList0xdc6310 = function(runtimeScene) {
+gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDButton1Objects1Objects = Hashtable.newFrom({"Button1": gdjs.LGS3Code.GDButton1Objects1});gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDButton1Objects1Objects = Hashtable.newFrom({"Button1": gdjs.LGS3Code.GDButton1Objects1});gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDButton2Objects1Objects = Hashtable.newFrom({"Button2": gdjs.LGS3Code.GDButton2Objects1});gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDButton2Objects1Objects = Hashtable.newFrom({"Button2": gdjs.LGS3Code.GDButton2Objects1});gdjs.LGS3Code.mapOfGDgdjs_46LGS3Code_46GDcontinueTextObjects1Objects = Hashtable.newFrom({"continueText": gdjs.LGS3Code.GDcontinueTextObjects1});gdjs.LGS3Code.eventsList0x78e4e0 = function(runtimeScene) {
 
 {
 
@@ -73,7 +73,7 @@ gdjs.LGS3Code.conditionTrue_1.val = true && gdjs.LGS3Code.condition0IsTrue_1.val
 }
 
 
-}; //End of gdjs.LGS3Code.eventsList0xdc6310
+}; //End of gdjs.LGS3Code.eventsList0x78e4e0
 gdjs.LGS3Code.eventsList0xb2358 = function(runtimeScene) {
 
 {
@@ -473,7 +473,7 @@ gdjs.LGS3Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.L
 }if (gdjs.LGS3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.LGS3Code.eventsList0xdc6310(runtimeScene);} //End of subevents
+gdjs.LGS3Code.eventsList0x78e4e0(runtimeScene);} //End of subevents
 }
 
 }
@@ -488,6 +488,7 @@ gdjs.LGS3Code.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtim
 }if (gdjs.LGS3Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "Time");
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("5level").add(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0))));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("5level").add(20 - Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0))));
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LGS4", false);
 }}
 

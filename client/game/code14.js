@@ -34,7 +34,7 @@ gdjs.LGS4Code.condition2IsTrue_1 = {val:false};
 gdjs.LGS4Code.condition3IsTrue_1 = {val:false};
 
 
-gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDButton1Objects1Objects = Hashtable.newFrom({"Button1": gdjs.LGS4Code.GDButton1Objects1});gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDButton1Objects1Objects = Hashtable.newFrom({"Button1": gdjs.LGS4Code.GDButton1Objects1});gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDButton2Objects1Objects = Hashtable.newFrom({"Button2": gdjs.LGS4Code.GDButton2Objects1});gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDButton2Objects1Objects = Hashtable.newFrom({"Button2": gdjs.LGS4Code.GDButton2Objects1});gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDcontinueTextObjects1Objects = Hashtable.newFrom({"continueText": gdjs.LGS4Code.GDcontinueTextObjects1});gdjs.LGS4Code.eventsList0xdc9c90 = function(runtimeScene) {
+gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDButton1Objects1Objects = Hashtable.newFrom({"Button1": gdjs.LGS4Code.GDButton1Objects1});gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDButton1Objects1Objects = Hashtable.newFrom({"Button1": gdjs.LGS4Code.GDButton1Objects1});gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDButton2Objects1Objects = Hashtable.newFrom({"Button2": gdjs.LGS4Code.GDButton2Objects1});gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDButton2Objects1Objects = Hashtable.newFrom({"Button2": gdjs.LGS4Code.GDButton2Objects1});gdjs.LGS4Code.mapOfGDgdjs_46LGS4Code_46GDcontinueTextObjects1Objects = Hashtable.newFrom({"continueText": gdjs.LGS4Code.GDcontinueTextObjects1});gdjs.LGS4Code.eventsList0x7823b0 = function(runtimeScene) {
 
 {
 
@@ -69,7 +69,7 @@ gdjs.LGS4Code.conditionTrue_1.val = true && gdjs.LGS4Code.condition0IsTrue_1.val
 }
 
 
-}; //End of gdjs.LGS4Code.eventsList0xdc9c90
+}; //End of gdjs.LGS4Code.eventsList0x7823b0
 gdjs.LGS4Code.eventsList0xb2358 = function(runtimeScene) {
 
 {
@@ -324,7 +324,7 @@ gdjs.LGS4Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.L
 }if (gdjs.LGS4Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.LGS4Code.eventsList0xdc9c90(runtimeScene);} //End of subevents
+gdjs.LGS4Code.eventsList0x7823b0(runtimeScene);} //End of subevents
 }
 
 }
@@ -339,6 +339,7 @@ gdjs.LGS4Code.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtim
 }if (gdjs.LGS4Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "Time");
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("5level").add(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0))));
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("5level").add(20 - Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0))));
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LGS5", false);
 }}
 
