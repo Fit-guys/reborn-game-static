@@ -163,7 +163,7 @@ gdjs.HT_95CardsGameCode.condition0IsTrue_0 = {val:false};
 gdjs.HT_95CardsGameCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.HT_95CardsGameCode.mapOfGDgdjs_46HT_9595CardsGameCode_46GDcard_9595blowfishObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595crabObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595seahorseObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595snailObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595seagrassObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595coralObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595anemoneObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595plasticbagObjects5Objects = Hashtable.newFrom({"card_blowfish": gdjs.HT_95CardsGameCode.GDcard_95blowfishObjects5, "card_crab": gdjs.HT_95CardsGameCode.GDcard_95crabObjects5, "card_seahorse": gdjs.HT_95CardsGameCode.GDcard_95seahorseObjects5, "card_snail": gdjs.HT_95CardsGameCode.GDcard_95snailObjects5, "card_seagrass": gdjs.HT_95CardsGameCode.GDcard_95seagrassObjects5, "card_coral": gdjs.HT_95CardsGameCode.GDcard_95coralObjects5, "card_anemone": gdjs.HT_95CardsGameCode.GDcard_95anemoneObjects5, "card_plasticbag": gdjs.HT_95CardsGameCode.GDcard_95plasticbagObjects5});gdjs.HT_95CardsGameCode.eventsList0xd671b0 = function(runtimeScene) {
+gdjs.HT_95CardsGameCode.mapOfGDgdjs_46HT_9595CardsGameCode_46GDcard_9595blowfishObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595crabObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595seahorseObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595snailObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595seagrassObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595coralObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595anemoneObjects5ObjectsGDgdjs_46HT_9595CardsGameCode_46GDcard_9595plasticbagObjects5Objects = Hashtable.newFrom({"card_blowfish": gdjs.HT_95CardsGameCode.GDcard_95blowfishObjects5, "card_crab": gdjs.HT_95CardsGameCode.GDcard_95crabObjects5, "card_seahorse": gdjs.HT_95CardsGameCode.GDcard_95seahorseObjects5, "card_snail": gdjs.HT_95CardsGameCode.GDcard_95snailObjects5, "card_seagrass": gdjs.HT_95CardsGameCode.GDcard_95seagrassObjects5, "card_coral": gdjs.HT_95CardsGameCode.GDcard_95coralObjects5, "card_anemone": gdjs.HT_95CardsGameCode.GDcard_95anemoneObjects5, "card_plasticbag": gdjs.HT_95CardsGameCode.GDcard_95plasticbagObjects5});gdjs.HT_95CardsGameCode.eventsList0x789ac0 = function(runtimeScene) {
 
 {
 
@@ -221,8 +221,8 @@ for(var i = 0, len = gdjs.HT_95CardsGameCode.GDcard_95plasticbagObjects5.length 
 }
 
 
-}; //End of gdjs.HT_95CardsGameCode.eventsList0xd671b0
-gdjs.HT_95CardsGameCode.eventsList0x9f0eb0 = function(runtimeScene) {
+}; //End of gdjs.HT_95CardsGameCode.eventsList0x789ac0
+gdjs.HT_95CardsGameCode.eventsList0x10a4cf0 = function(runtimeScene) {
 
 {
 
@@ -337,14 +337,14 @@ for(var i = 0, len = gdjs.HT_95CardsGameCode.GDcard_95plasticbagObjects5.length 
 }
 }
 { //Subevents
-gdjs.HT_95CardsGameCode.eventsList0xd671b0(runtimeScene);} //End of subevents
+gdjs.HT_95CardsGameCode.eventsList0x789ac0(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.HT_95CardsGameCode.eventsList0x9f0eb0
-gdjs.HT_95CardsGameCode.eventsList0xd4db38 = function(runtimeScene) {
+}; //End of gdjs.HT_95CardsGameCode.eventsList0x10a4cf0
+gdjs.HT_95CardsGameCode.eventsList0x79d3e8 = function(runtimeScene) {
 
 {
 
@@ -377,7 +377,7 @@ gdjs.HT_95CardsGameCode.GDposition_95placeholderObjects4.push(gdjs.HT_95CardsGam
 if (true) {
 
 { //Subevents: 
-gdjs.HT_95CardsGameCode.eventsList0x9f0eb0(runtimeScene);} //Subevents end.
+gdjs.HT_95CardsGameCode.eventsList0x10a4cf0(runtimeScene);} //Subevents end.
 }
 }
 
@@ -404,8 +404,8 @@ gdjs.HT_95CardsGameCode.GDscreen_95fadeObjects2.createFrom(runtimeScene.getObjec
 }
 
 
-}; //End of gdjs.HT_95CardsGameCode.eventsList0xd4db38
-gdjs.HT_95CardsGameCode.eventsList0x9c87a0 = function(runtimeScene) {
+}; //End of gdjs.HT_95CardsGameCode.eventsList0x79d3e8
+gdjs.HT_95CardsGameCode.eventsList0x782150 = function(runtimeScene) {
 
 {
 
@@ -427,7 +427,7 @@ gdjs.HT_95CardsGameCode.GDhelp2TextObjects2.createFrom(runtimeScene.getObjects("
 }
 }
 { //Subevents
-gdjs.HT_95CardsGameCode.eventsList0xd4db38(runtimeScene);} //End of subevents
+gdjs.HT_95CardsGameCode.eventsList0x79d3e8(runtimeScene);} //End of subevents
 }
 
 }
@@ -504,13 +504,13 @@ gdjs.HT_95CardsGameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariabl
 }
 
 
-}; //End of gdjs.HT_95CardsGameCode.eventsList0x9c87a0
+}; //End of gdjs.HT_95CardsGameCode.eventsList0x782150
 gdjs.HT_95CardsGameCode.eventsList0xb2358 = function(runtimeScene) {
 
 {
 
 
-gdjs.HT_95CardsGameCode.eventsList0x9c87a0(runtimeScene);
+gdjs.HT_95CardsGameCode.eventsList0x782150(runtimeScene);
 }
 
 

@@ -101,6 +101,9 @@ gdjs.MapCode.GD6PhotoObjects3= [];
 gdjs.MapCode.GDHButtonObjects1= [];
 gdjs.MapCode.GDHButtonObjects2= [];
 gdjs.MapCode.GDHButtonObjects3= [];
+gdjs.MapCode.GDskillObjects1= [];
+gdjs.MapCode.GDskillObjects2= [];
+gdjs.MapCode.GDskillObjects3= [];
 
 gdjs.MapCode.conditionTrue_0 = {val:false};
 gdjs.MapCode.condition0IsTrue_0 = {val:false};
@@ -112,7 +115,7 @@ gdjs.MapCode.condition1IsTrue_1 = {val:false};
 gdjs.MapCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.MapCode.userFunc0xe1ebc8 = function(runtimeScene) {
+gdjs.MapCode.userFunc0x7afc00 = function(runtimeScene) {
 window.addEventListener("message", receiveMessage, false);
 
 function receiveMessage(event)
@@ -129,18 +132,18 @@ function receiveMessage(event)
 
 window.top.postMessage({name: "user-story-request"},"*");
 };
-gdjs.MapCode.eventsList0xd8fa70 = function(runtimeScene) {
+gdjs.MapCode.eventsList0x789298 = function(runtimeScene) {
 
 {
 
 
-gdjs.MapCode.userFunc0xe1ebc8(runtimeScene);
+gdjs.MapCode.userFunc0x7afc00(runtimeScene);
 
 }
 
 
-}; //End of gdjs.MapCode.eventsList0xd8fa70
-gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD1ButtonObjects1Objects = Hashtable.newFrom({"1Button": gdjs.MapCode.GD1ButtonObjects1});gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD2ButtonObjects2Objects = Hashtable.newFrom({"2Button": gdjs.MapCode.GD2ButtonObjects2});gdjs.MapCode.eventsList0xe1f2e8 = function(runtimeScene) {
+}; //End of gdjs.MapCode.eventsList0x789298
+gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD1ButtonObjects1Objects = Hashtable.newFrom({"1Button": gdjs.MapCode.GD1ButtonObjects1});gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD2ButtonObjects2Objects = Hashtable.newFrom({"2Button": gdjs.MapCode.GD2ButtonObjects2});gdjs.MapCode.eventsList0x7afff0 = function(runtimeScene) {
 
 {
 
@@ -187,8 +190,8 @@ gdjs.MapCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(
 }
 
 
-}; //End of gdjs.MapCode.eventsList0xe1f2e8
-gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD3ButtonObjects2Objects = Hashtable.newFrom({"3Button": gdjs.MapCode.GD3ButtonObjects2});gdjs.MapCode.eventsList0xe1fe98 = function(runtimeScene) {
+}; //End of gdjs.MapCode.eventsList0x7afff0
+gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD3ButtonObjects2Objects = Hashtable.newFrom({"3Button": gdjs.MapCode.GD3ButtonObjects2});gdjs.MapCode.eventsList0x7b09e0 = function(runtimeScene) {
 
 {
 
@@ -235,8 +238,8 @@ gdjs.MapCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(
 }
 
 
-}; //End of gdjs.MapCode.eventsList0xe1fe98
-gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD4ButtonObjects2Objects = Hashtable.newFrom({"4Button": gdjs.MapCode.GD4ButtonObjects2});gdjs.MapCode.eventsList0xe20a60 = function(runtimeScene) {
+}; //End of gdjs.MapCode.eventsList0x7b09e0
+gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD4ButtonObjects2Objects = Hashtable.newFrom({"4Button": gdjs.MapCode.GD4ButtonObjects2});gdjs.MapCode.eventsList0x780e58 = function(runtimeScene) {
 
 {
 
@@ -283,8 +286,8 @@ gdjs.MapCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(
 }
 
 
-}; //End of gdjs.MapCode.eventsList0xe20a60
-gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD5ButtonObjects2Objects = Hashtable.newFrom({"5Button": gdjs.MapCode.GD5ButtonObjects2});gdjs.MapCode.eventsList0xe215e0 = function(runtimeScene) {
+}; //End of gdjs.MapCode.eventsList0x780e58
+gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD5ButtonObjects2Objects = Hashtable.newFrom({"5Button": gdjs.MapCode.GD5ButtonObjects2});gdjs.MapCode.eventsList0x7828c8 = function(runtimeScene) {
 
 {
 
@@ -331,8 +334,8 @@ gdjs.MapCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(
 }
 
 
-}; //End of gdjs.MapCode.eventsList0xe215e0
-gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD6ButtonObjects2Objects = Hashtable.newFrom({"6Button": gdjs.MapCode.GD6ButtonObjects2});gdjs.MapCode.eventsList0xe22190 = function(runtimeScene) {
+}; //End of gdjs.MapCode.eventsList0x7828c8
+gdjs.MapCode.mapOfGDgdjs_46MapCode_46GD6ButtonObjects2Objects = Hashtable.newFrom({"6Button": gdjs.MapCode.GD6ButtonObjects2});gdjs.MapCode.eventsList0x783480 = function(runtimeScene) {
 
 {
 
@@ -379,7 +382,7 @@ gdjs.MapCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(
 }
 
 
-}; //End of gdjs.MapCode.eventsList0xe22190
+}; //End of gdjs.MapCode.eventsList0x783480
 gdjs.MapCode.eventsList0xb2358 = function(runtimeScene) {
 
 {
@@ -402,7 +405,7 @@ gdjs.MapCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins
 }if (gdjs.MapCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.MapCode.eventsList0xd8fa70(runtimeScene);} //End of subevents
+gdjs.MapCode.eventsList0x789298(runtimeScene);} //End of subevents
 }
 
 }
@@ -476,7 +479,7 @@ gdjs.MapCode.GD2ButtonObjects1.createFrom(runtimeScene.getObjects("2Button"));
 }
 }
 { //Subevents
-gdjs.MapCode.eventsList0xe1f2e8(runtimeScene);} //End of subevents
+gdjs.MapCode.eventsList0x7afff0(runtimeScene);} //End of subevents
 }
 
 }
@@ -519,7 +522,7 @@ gdjs.MapCode.GD3ButtonObjects1.createFrom(runtimeScene.getObjects("3Button"));
 }
 }
 { //Subevents
-gdjs.MapCode.eventsList0xe1fe98(runtimeScene);} //End of subevents
+gdjs.MapCode.eventsList0x7b09e0(runtimeScene);} //End of subevents
 }
 
 }
@@ -562,7 +565,7 @@ gdjs.MapCode.GD4ButtonObjects1.createFrom(runtimeScene.getObjects("4Button"));
 }
 }
 { //Subevents
-gdjs.MapCode.eventsList0xe20a60(runtimeScene);} //End of subevents
+gdjs.MapCode.eventsList0x780e58(runtimeScene);} //End of subevents
 }
 
 }
@@ -605,7 +608,7 @@ gdjs.MapCode.GD5ButtonObjects1.createFrom(runtimeScene.getObjects("5Button"));
 }
 }
 { //Subevents
-gdjs.MapCode.eventsList0xe215e0(runtimeScene);} //End of subevents
+gdjs.MapCode.eventsList0x7828c8(runtimeScene);} //End of subevents
 }
 
 }
@@ -648,7 +651,7 @@ gdjs.MapCode.GD6ButtonObjects1.createFrom(runtimeScene.getObjects("6Button"));
 }
 }
 { //Subevents
-gdjs.MapCode.eventsList0xe22190(runtimeScene);} //End of subevents
+gdjs.MapCode.eventsList0x783480(runtimeScene);} //End of subevents
 }
 
 }
@@ -683,6 +686,15 @@ gdjs.MapCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(run
 }if (gdjs.MapCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "F_Map");
 }}
+
+}
+
+
+{
+
+
+{
+}
 
 }
 
@@ -794,6 +806,9 @@ gdjs.MapCode.GD6PhotoObjects3.length = 0;
 gdjs.MapCode.GDHButtonObjects1.length = 0;
 gdjs.MapCode.GDHButtonObjects2.length = 0;
 gdjs.MapCode.GDHButtonObjects3.length = 0;
+gdjs.MapCode.GDskillObjects1.length = 0;
+gdjs.MapCode.GDskillObjects2.length = 0;
+gdjs.MapCode.GDskillObjects3.length = 0;
 
 gdjs.MapCode.eventsList0xb2358(runtimeScene);
 return;

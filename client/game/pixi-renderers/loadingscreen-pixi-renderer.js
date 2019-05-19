@@ -3,7 +3,7 @@ gdjs.LoadingScreenPixiRenderer = function(runtimeGamePixiRenderer, loadingScreen
   this._loadingScreen = new PIXI.Container();
 
   this._progressText = new PIXI.Text(' ', {
-    fontSize: '30px',
+    fontSize: '40px',
     fontFamily: 'Arial',
     fill: '#FFFFFF',
     align: 'center',
@@ -11,15 +11,15 @@ gdjs.LoadingScreenPixiRenderer = function(runtimeGamePixiRenderer, loadingScreen
   this._loadingScreen.addChild(this._progressText);
 
   if (loadingScreenSetup && loadingScreenSetup.showGDevelopSplash) {
-    this._madeWithText = new PIXI.Text('Made with', {
-      fontSize: '30px',
+    this._madeWithText = new PIXI.Text('РОЗРОБЛЕНО КОМАНДОЮ «CYBER UNICORNS: REBORN»', {
+      fontSize: '40px',
       fontFamily: 'Arial',
       fill: '#FFFFFF',
       align: 'center',
     });
     this._madeWithText.position.y = this._pixiRenderer.height / 2 - 130;
-    this._websiteText = new PIXI.Text('gdevelop-app.com', {
-      fontSize: '30px',
+    this._websiteText = new PIXI.Text('ІНФОРМАЦІЙНИЙ ВЕБ-ПОРТАЛ', {
+      fontSize: '40px',
       fontFamily: 'Arial',
       fill: '#FFFFFF',
       align: 'center',

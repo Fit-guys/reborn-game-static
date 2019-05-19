@@ -420,6 +420,7 @@ gdjs.LGS5Code.condition0IsTrue_0.val = false;
 gdjs.LGS5Code.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "p");
 }if (gdjs.LGS5Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "Time");
+}{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("5level").add(20 - Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0))));
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("5level").add(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0))));
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LGS6", false);
 }}
